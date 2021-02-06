@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a, b, c, d;
+clrscr();
+printf(“Enter rows: ”);
+scanf(“%d”, &a);
+printf(“Enter column: ”);
+scanf(“%d”, &b);
+printf(“\n”);
+for(c=1; c<=a; c++)
+{
+for(d=b; d>b-c; d--)
+{
+printf(“%d”, d);
+}
+for(d=1; d<=b-c; d++)
+{
+printf(“%d”, (a-c+1));
+}
+printf(“\n”);
+printf(“\n”);
+}
+getch();
+}
